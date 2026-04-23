@@ -1,6 +1,6 @@
 # Summit Supply
 
-A small fictional outdoor-gear e-commerce site, used as a starting point for demoing AI coding tools (Claude Code, Codex, etc.) through Slack.
+A small fictional outdoor-gear e-commerce site, used as a starting point for demoing AI coding assistants (for example, Codex and Claude Code) through Slack.
 
 This repo was created by [`repomatic`](https://github.com/andrewn-net/repomatic). It ships a working Next.js storefront with a catalog, cart, and checkout — everything a customer would expect from an online shop.
 
@@ -30,8 +30,8 @@ npm run dev
 
 ## Demo scenarios
 
-This repo is designed to support two kinds of AI coding tool demos — fixing a bug and adding a feature. The specific suggested prompts live in `repomatic`'s manifest (run `repomatic setup claude-code` to see them). You'll want to keep this README open in front of the AI tool but not share the prompts directly in the demo — they belong to the demoer, not the codebase.
+This repo is designed to support two kinds of AI coding assistant demos — fixing a bug and adding a feature. The specific suggested prompts live in `repomatic`'s manifest (run the appropriate `repomatic setup <profile>` command to see them). You'll want to keep this README open in front of the assistant but not share the prompts directly in the demo — they belong to the demoer, not the codebase.
 
 ## Reset between demos
 
-When you're ready to demo again, run `repomatic reset claude-code` — it rewinds this repo to its starting state and closes any open PRs.
+When you're ready to demo again, run the matching `repomatic reset <profile>` command — it rewinds this repo to its starting state and closes any open PRs.
