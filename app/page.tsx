@@ -8,7 +8,7 @@ export default function HomePage() {
   return (
     <div className="space-y-16">
       <section className="relative bg-summit-dark text-white rounded-xl overflow-hidden">
-        <div className="absolute inset-0 opacity-30 bg-[url('https://picsum.photos/seed/hero/1600/600')] bg-cover bg-center" />
+        <div className="absolute inset-0 opacity-30 bg-[url('https://images.pexels.com/photos/640908/pexels-photo-640908.jpeg')] bg-cover bg-center" />
         <div className="relative px-10 py-20 max-w-2xl">
           <h1 className="text-5xl font-display mb-4">Gear for the high and wild.</h1>
           <p className="text-lg text-stone-200 mb-8">

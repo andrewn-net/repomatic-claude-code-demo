@@ -13,15 +13,15 @@ export default function CheckoutPage() {
   const [processing, setProcessing] = useState(false);
 
   const [form, setForm] = useState({
-    name: '',
-    email: '',
-    address: '',
-    city: '',
-    zip: '',
-    cardNumber: '',
-    expiry: '',
-    cvc: '',
-    nameOnCard: '',
+    name: 'Demo Buyer',
+    email: 'demo.buyer@example.com',
+    address: '123 Summit Trail',
+    city: 'Denver',
+    zip: '80202',
+    cardNumber: '4000 0000 0000 0002',
+    expiry: '12/34',
+    cvc: '123',
+    nameOnCard: 'Demo Buyer',
   });
 
   if (items.length === 0) {
