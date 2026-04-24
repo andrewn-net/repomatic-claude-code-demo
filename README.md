@@ -35,3 +35,11 @@ This repo is designed to support two kinds of AI coding assistant demos — fixi
 ## Reset between demos
 
 When you're ready to demo again, run the matching `repomatic reset <profile>` command — it rewinds this repo to its starting state and closes any open PRs.
+
+To also reset your local copy to match, run:
+
+```bash
+npm run reset
+```
+
+This fetches the latest from origin, hard-resets to `origin/main`, clears the `.next` build cache, reinstalls dependencies, and starts the dev server.
