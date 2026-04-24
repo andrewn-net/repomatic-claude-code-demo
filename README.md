@@ -18,7 +18,7 @@ npm run dev
 - **Product detail pages** — photos, descriptions, stock levels, add-to-cart
 - **Cart** — persistent via localStorage; adjust quantities, remove items
 - **Checkout** — shipping + payment form, order confirmation with reference number
-- **Payment processing** — in `lib/payment.ts`, talks to our payment gateway to authorize the transaction
+- **Payment processing** — in `lib/payment.ts`; the gateway integration is currently broken (intentionally), making it a good demo target for an AI coding assistant fix
 
 ## How the app is built
 
@@ -26,7 +26,7 @@ npm run dev
 - Tailwind CSS for styling
 - React Context for cart state
 - In-memory product catalog (no database needed)
-- Placeholder product imagery from picsum.photos
+- Placeholder product imagery from pexels.com
 
 ## Demo scenarios
 
@@ -35,3 +35,11 @@ This repo is designed to support two kinds of AI coding assistant demos — fixi
 ## Reset between demos
 
 When you're ready to demo again, run the matching `repomatic reset <profile>` command — it rewinds this repo to its starting state and closes any open PRs.
+
+To also reset your local copy to match, run:
+
+```bash
+npm run reset
+```
+
+This fetches the latest from origin, hard-resets to `origin/main`, clears the `.next` build cache, reinstalls dependencies, and starts the dev server.
