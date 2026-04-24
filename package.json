@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "reset": "git fetch origin && git reset --hard origin/main && rm -rf .next && npm install && npm run dev"
   },
   "dependencies": {
     "next": "14.2.15",
