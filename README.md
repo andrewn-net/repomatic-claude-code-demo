@@ -18,7 +18,7 @@ npm run dev
 - **Product detail pages** — photos, descriptions, stock levels, add-to-cart
 - **Cart** — persistent via localStorage; adjust quantities, remove items
 - **Checkout** — shipping + payment form, order confirmation with reference number
-- **Payment processing** — in `lib/payment.ts`, talks to our payment gateway to authorize the transaction
+- **Payment processing** — in `lib/payment.ts`; the gateway integration is currently broken (intentionally), making it a good demo target for an AI coding assistant fix
 
 ## How the app is built
 
@@ -26,7 +26,7 @@ npm run dev
 - Tailwind CSS for styling
 - React Context for cart state
 - In-memory product catalog (no database needed)
-- Placeholder product imagery from picsum.photos
+- Placeholder product imagery from pexels.com
 
 ## Demo scenarios
 
